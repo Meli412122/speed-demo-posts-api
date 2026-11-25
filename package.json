@@ -1,0 +1,14 @@
+{
+  "name": "speed-demo-posts-api",
+  "version": "1.0.0",
+  "description": "API REST mínima de posts y usuarios (mismos endpoints que JSONPlaceholder) para probar endpoints desde Speed.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
